@@ -1,0 +1,137 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TextBoxSearch/1.0.0": {
+        "dependencies": {
+          "AsyncAwaitBestPractices": "6.0.6",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "Refractored.MvvmHelpers": "1.6.2",
+          "Syncfusion.Tools.WPF": "22.1.37"
+        },
+        "runtime": {
+          "TextBoxSearch.dll": {}
+        }
+      },
+      "AsyncAwaitBestPractices/6.0.6": {
+        "runtime": {
+          "lib/net7.0/AsyncAwaitBestPractices.dll": {
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.5.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "Refractored.MvvmHelpers/1.6.2": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/22.1.37": {
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "22.1.37.0",
+            "fileVersion": "22.1.37.0"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/22.1.37": {
+        "dependencies": {
+          "Syncfusion.Licensing": "22.1.37"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "22.1.37.0",
+            "fileVersion": "22.1.37.0"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/22.1.37": {
+        "dependencies": {
+          "Syncfusion.Licensing": "22.1.37",
+          "Syncfusion.Shared.WPF": "22.1.37"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Tools.WPF.dll": {
+            "assemblyVersion": "22.1.37.0",
+            "fileVersion": "22.1.37.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "TextBoxSearch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AsyncAwaitBestPractices/6.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5JwyXsa0357gUCfrm741ae10LuWRl/V3JmBLL/7ddTeyA0ajWm4Ze+WCzweSzz2Pd8MT6T9PDVNK8pjZ9ezt6A==",
+      "path": "asyncawaitbestpractices/6.0.6",
+      "hashPath": "asyncawaitbestpractices.6.0.6.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "Refractored.MvvmHelpers/1.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pXiyT0ad3QI7IzZSSjVNliyhyyAe7lmNPdfAEgSrtjhF9twrYoKbBlTd58IJc67Fw8QmHEur8F9eBA4rj+BZAg==",
+      "path": "refractored.mvvmhelpers/1.6.2",
+      "hashPath": "refractored.mvvmhelpers.1.6.2.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/22.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HP5qCjGBp/HUUuSBjD7Wrxq5MhCjws8RSia3SQiw49D/kEAhVmXVVZjY8zQYuDjqhyz32WlZb8eBi/9z+7bkNA==",
+      "path": "syncfusion.licensing/22.1.37",
+      "hashPath": "syncfusion.licensing.22.1.37.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/22.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RmcUqFUsdbnlUDlpFDeEQWgD8Vu16VL+1czOuBu0vwVR3+WgzsMA5+FBlWD4iXkuHlFRjq8EA1ilaSSeX1Gdbw==",
+      "path": "syncfusion.shared.wpf/22.1.37",
+      "hashPath": "syncfusion.shared.wpf.22.1.37.nupkg.sha512"
+    },
+    "Syncfusion.Tools.WPF/22.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YtUabZGCxoyWqCINY/BddGz9dXhT1tnDtnIhzPbDGQwGP9fBTKU4M40LYo3UHMwAHkGGDH60yosAnfQaTd96ow==",
+      "path": "syncfusion.tools.wpf/22.1.37",
+      "hashPath": "syncfusion.tools.wpf.22.1.37.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    }
+  }
+}

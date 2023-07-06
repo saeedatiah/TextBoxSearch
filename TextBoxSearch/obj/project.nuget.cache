@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "q3OcxczC/Yf6ONWcF4b+nAyILHMP8X1oE9hg5xTHh8e6WVhMx7gGzcVDKccH4Ggy5eOB/PmVC5J/S23DqxjOzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\TextBoxSearch\\TextBoxSearch\\TextBoxSearch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\asyncawaitbestpractices\\6.0.6\\asyncawaitbestpractices.6.0.6.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.licensing\\22.1.37\\syncfusion.licensing.22.1.37.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.shared.wpf\\22.1.37\\syncfusion.shared.wpf.22.1.37.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\syncfusion.tools.wpf\\22.1.37\\syncfusion.tools.wpf.22.1.37.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
