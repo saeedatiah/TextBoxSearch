@@ -15,6 +15,12 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="1">
+            <TextBlock Text="{Binding FoucuListbox,UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock Text="{Binding FoucuTextBox,UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBox/>
+        </StackPanel>
         <TextBox  local:EnterKeyHelpers.EnterKeyCommand="{Binding SelelctedItem}" Text="{Binding TxtSearchItem,UpdateSourceTrigger=PropertyChanged}"  x:Name="TextItems" Height="40" local:FocusExtension.IsFocused="{Binding FoucuTextBox}">
             <TextBox.InputBindings>
                 <KeyBinding Key="Down" Command="{Binding NavToList}"/>
@@ -28,6 +34,7 @@
         <Popup Width="{Binding ElementName=TextItems ,Path=ActualWidth}" PlacementTarget="{Binding ElementName=TextItems}"
                 Placement="Bottom"  IsOpen="{Binding OpenPop,UpdateSourceTrigger=PropertyChanged}" StaysOpen="False">
                 <ListBox local:FocusExtension.IsFocused="{Binding FoucuListbox}" 
+                         local:EnterKeyHelpers.EnterKeyCommand="{Binding EnterSelelctedItem}"
                      ItemsSource="{Binding FilteredItems,UpdateSourceTrigger=PropertyChanged}"
                      SelectedIndex="{Binding SelectedIndex,UpdateSourceTrigger=PropertyChanged}"
                      SelectedItem="{Binding SelectedItem,UpdateSourceTrigger=PropertyChanged}">

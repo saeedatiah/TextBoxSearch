@@ -25,6 +25,7 @@ namespace TextBoxSearch
         public AsyncCommand NavToNext { set; get; }
         public AsyncCommand TexetChanged { set; get; }
         public AsyncCommand SelelctedItem { set; get; }
+        public AsyncCommand EnterSelelctedItem { set; get; }
 
 
         private bool foucuTextBox;
@@ -111,6 +112,7 @@ namespace TextBoxSearch
             NavToNext=new AsyncCommand(()=>NavToNextAsync());
             TexetChanged = new AsyncCommand(()=> TexetChangedAsync());
             SelelctedItem = new AsyncCommand(()=> SelelctedItemAsync());
+            EnterSelelctedItem = new AsyncCommand(()=> EnterSelelctedItemAsync());
             Items = new ObservableCollection<Items>()
             {
                 new Items{Code = "112" ,Name="aa" },
@@ -129,9 +131,6 @@ namespace TextBoxSearch
         {
             OpenPop = true;
             FoucuListbox = true;
-            if (SelectedItem == null)
-                return;
-            TxtSearchItem = SelectedItem.Name;
         }
         async Task NavToTextBoxAsync()
         {
@@ -150,6 +149,12 @@ namespace TextBoxSearch
         {
             SelectedItem = Items.Where(i => i.Name.ToLower().Contains(TxtSearchItem) || i.Code.ToLower().Contains(TxtSearchItem)).FirstOrDefault() ?? Items.FirstOrDefault();
             TxtSearchItem = SelectedItem.Code+" - "+ SelectedItem.Name;
+        }
+
+        async Task EnterSelelctedItemAsync()
+        {
+            TxtSearchItem = SelectedItem.Code + " - " + SelectedItem.Name;
+            OpenPop = false;
         }
 
 
